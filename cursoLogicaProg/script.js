@@ -1,3 +1,5 @@
-let nome = "Eduardo"
+let moedasColetadas = 100
+let nomedaFase = "Castelo"
 
-console.log(nome)
+let passoudeFase = (moedasColetadas >= 100) && (nomedaFase === "Castelo")
+console.log(passoudeFase)
