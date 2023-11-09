@@ -1,5 +1,5 @@
-let moedasColetadas = 100
-let nomedaFase = "Castelo"
+const numeros = [1, 2, 3, 4, 5];
 
-let passoudeFase = (moedasColetadas >= 100) && (nomedaFase === "Castelo")
-console.log(passoudeFase)
+for(let i = 0; i < numeros.length; i++) {
+  console.log(numeros[i]);
+}
